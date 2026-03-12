@@ -23,6 +23,7 @@ public class AddToCart extends ProductViewAction{
 		.post("/shoppers/{shopperId}/carts");
 
 		res.then().assertThat().statusCode(201);
+		System.out.println("added to cart ");
 	}
 	
 }
