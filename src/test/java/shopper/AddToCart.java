@@ -24,6 +24,7 @@ public class AddToCart extends ProductViewAction{
 
 		res.then().assertThat().statusCode(201);
 		System.out.println("added to cart");
+		System.out.println("yes bro finnnnallly addddddeddddd to cccAAArt..(doing for second branche in git)");
 	}
 	
 }
